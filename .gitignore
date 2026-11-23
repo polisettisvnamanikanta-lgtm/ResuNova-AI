@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+.venv/
+
+# Secret credentials
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Backup files
+*.bak
+*.old
+
+# OS files
+.DS_Store
+Thumbs.db
